@@ -1,0 +1,16 @@
+---
+baseurl: "http://replace-this-with-your-hugo-site.com/"
+languageCode: "en-us"
+title: "My New Hugo Site"
+footnotereturnlinkcontents: "↩"
+permalinks:
+  post: /:year/:month/:title/
+params:
+  AuthorName: "Yann Hodique"
+  AuthorEmail: "yann.hodique@gmail.com"
+  TwitterUser: "yann_hodique"
+  GitHubUser: "sigma"
+  ListOfFoo:
+    - "foo1"
+    - "foo2"
+...
