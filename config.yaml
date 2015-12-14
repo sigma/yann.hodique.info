@@ -8,6 +8,7 @@ permalinks:
 params:
   AuthorName: "Yann Hodique"
   AuthorEmail: "yann.hodique@gmail.com"
+  Company: "VMware"
   TwitterUser: "yann_hodique"
   GitHubUser: "sigma"
   ListOfFoo:
