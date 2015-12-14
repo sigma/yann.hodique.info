@@ -3,16 +3,27 @@
   <div class="unit-body">
     <div class="unit-inner unit-body-inner">
       <div class="entry-content">
-        <h1 id="title">{{ .Title }}</h1>
-        <ul>
-          {{ $data := .Data }}
-          {{ range $key, $value := .Data.Terms }}
-          <li><a href="/{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a> {{ len $value }}</li>
-          {{ end }}
-        </ul>
+        <div class="unit-article layout-page">
+          <div class="unit-inner unit-article-inner">
+            <div class="content">
+              <div class="header">
+                <h1 id="title">{{ .Title }}</h1>
+              </div>
+            </div>
+          </div>
+          <div class="bd">
+            <div class="entry-content">
+              <ul id="list">
+                {{ $data := .Data }}
+                {{ range $key, $value := .Data.Terms }}
+                <li><a href="/{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a> {{ len $value }}</li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
-</section>
 {{ partial "footer.html" . }}

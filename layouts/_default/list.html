@@ -3,12 +3,28 @@
   <div class="unit-body">
     <div class="unit-inner unit-body-inner">
       <div class="entry-content">
-        <h1 id="title">{{ .Title }}</h1>
-        <ul id="list">
-          {{ range .Data.Pages }}
-          {{ .Render "li"}}
-          {{ end }}
-        </ul>
+        <div class="unit-article layout-page">
+          <div class="unit-inner unit-article-inner">
+            <div class="content">
+              <div class="header">
+                <div class="unit-head">
+                  <div class="unit-inner unit-head-inner">
+                    <h1 class="h2 entry-title">{{ .Title }}</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="bd">
+                <div class="entry-content">
+                  <ul id="list">
+                    {{ range .Data.Pages }}
+                    {{ .Render "li"}}
+                    {{ end }}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
