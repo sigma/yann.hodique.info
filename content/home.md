@@ -1,9 +1,8 @@
 +++
-title = "Yann Hodique"
+title = ""
 date = "2012-08-12T08:13:00-00:00"
 
 +++
-
 
 <p style="text-align: center; font-size: 200%;">This Page is Forever Unfinished</p>
 

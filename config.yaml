@@ -1,7 +1,7 @@
 ---
-baseurl: "http://replace-this-with-your-hugo-site.com/"
+baseurl: "http://www.hodique.info/"
 languageCode: "en-us"
-title: "My New Hugo Site"
+title: "Yann Hodique"
 footnotereturnlinkcontents: "↩"
 permalinks:
   post: /:year/:month/:title/
@@ -11,6 +11,9 @@ params:
   Company: "VMware"
   TwitterUser: "yann_hodique"
   GitHubUser: "sigma"
+  GoogleUser: "YannHodique"
+  LinkedInUser: "hodique"
+  StackExchangeId: "392509"
   ListOfFoo:
     - "foo1"
     - "foo2"

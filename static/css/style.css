@@ -729,6 +729,9 @@ pre {
 .unit-article img.right {
   margin-left: 16px;
 }
+.unit-article figure.full img {
+  width: 100%;
+}
 .unit-article .date-publish {
   margin-bottom: 0;
 }

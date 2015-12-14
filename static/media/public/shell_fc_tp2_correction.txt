@@ -1,0 +1,295 @@
+######################################################################
+# exercice 1
+# Ecrire un script qui affiche le contenu de tous les fichiers
+# passes en parametre en precisant le nom de chaque fichier avant
+# l'affichage de son contenu. (On ne se preoccupe pas du probleme de
+# defilement).
+######################################################################
+#! /bin/bash
+for fichier
+do
+   echo "---------"
+   echo "$fichier"
+   echo "---------"
+   cat "$fichier"        # ou $fichier
+done
+######################################################################
+# exercice 2
+# Ecrire un script qui copie tous les fichiers d'extension .txt du 
+# repertoire courant en des fichiers de meme nom et
+# d'extension .txt.archive (toujours dans le repertoire courant).
+######################################################################
+#! /bin/bash
+for fichier in *.txt
+do
+   cp $fichier ${fichier}.archive
+done
+######################################################################
+# exercice 3
+# Ecrire un script qui prend un nombre indetermine de parametres et
+# calcule leur somme.
+######################################################################
+#!/bin/bash
+somme="0"
+while test "$1" != ""
+do
+   somme=`expr $somme + $1`
+   shift
+done
+echo $somme
+######################################################################
+# exercice 4
+# Ecrire un script qui affiche pour chaque fichier du repertoire
+# courant une ligne de la forme nom_fichier taille.
+######################################################################
+#!/bin/bash
+for fichier in .* *
+do
+   set `ls -idl $fichier`
+   echo "$fichier $6"
+done
+######################################################################
+# exercice 5
+# Ecrire un script qui boucle en demandant a l'utilisateur de saisir
+# deux variables, affiche leur somme, leur difference, leur produit et
+# leur quotient. Le programme s'arrete lorsque l'utilisateur saisit un
+# point.
+######################################################################
+#!/bin/bash
+echo "Entrer deux entiers (point pour terminer)"
+read p1
+while test "$p1" != "."
+do
+   read p2
+   echo `expr $p1 + $p2`
+   echo `expr $p1 - $p2`
+   echo `expr $p1 \* $p2`
+   echo `expr $p1 / $p2`
+   echo "Entrer deux entiers (point pour terminer)"
+   read p1
+done
+######################################################################
+# exercice 6
+# Ecrire un script qui prend un argument et en affiche la
+# factorielle. Verifier que le nombre de parametres est correct.
+######################################################################
+#!/bin/bash
+if test $# -ne 1 
+   then echo "il faut un argument"
+   elif test $1 -eq 0 -o $1 -eq 1
+      then echo 1
+   else 
+      produit=2
+      n=$1
+      while test $n -ne 2
+      do
+         produit=`expr $produit \* $n`
+         n=`expr $n - 1`
+      done
+      echo $produit
+fi
+######################################################################
+# exercice 7
+# Ecrire un script qui prend deux arguments et affiche
+# leur pgcd. Vérifier que le nombre de paramètres est correct. 
+# Afficher un message specifique quand l'un des deux arguments.
+######################################################################
+#!/bin/bash
+if test $# -ne 2 
+   then echo "il faut deux arguments"
+elif test $1 -eq "0" -o $2 -eq "0"
+   then echo "arguments nuls"
+else
+   a=$1
+   b=$2
+   while test $a -ne $b
+   do
+      if test $a -gt $b
+      then 
+          a=`expr $a - $b`
+      else 
+          b=`expr $b - $a`
+      fi
+   done
+   echo $a
+fi
+######################################################################
+# exercice 8
+# Ecrire un script qui prend en argument des noms de
+# fichiers. Une option -v peut egalement etre placee parmi les
+# arguments. Si l'option est presente, la commande affiche les
+# caracteristiques de chaque fichier et repertoire (format de ls -l
+# sans entrer afficher le contenu des repertoires). Si l'option
+# n'est pas presente, la commande renomme chacun des fichiers (ou
+# repertoires) en ajoutant l'extension .old. 
+######################################################################
+#!/bin/bash
+para=""
+option=""
+while test "$1" != ""
+do
+   if test "$1" = "-v"
+   then 
+     option="-v"
+   else
+     para="$para $1" 
+   fi
+   shift 
+done
+set $para
+if test "$option" = "-v"
+then
+   while test "$1" != ""
+   do
+      echo `ls -ld $1` 
+      shift
+   done
+else
+   while test "$1" != ""
+   do
+      mv $1 ${1}.old
+      shift
+   done
+fi
+######################################################################
+# exercice 9
+# Ecrire un script qui sort les valeurs successives de la suite 
+# définie par :
+#            u_n+1 = u_n /2     si u_n est pair, 
+#                    3 * u_n +1 si u_n est impair. 
+# La valeur de u_0 est donnée en argument, le programme s'arrête
+# lorsque la valeur à afficher est 1.
+######################################################################
+#! /bin/bash
+u0=$1
+un=$u0
+while test $un -ne 1
+do
+   echo $un
+   if test `expr $un % 2` -eq 0
+   then 
+      un=`expr $un / 2`
+   else
+      un=`expr \( $un \* 3 \) + 1`
+   fi
+done
+
+echo $un
+######################################################################
+# exercice 10
+# Ecrire une commande jeter qui permet de manipuler une poubelle
+# de fichiers -- un répertoire -- nommée poubelle et située à
+# votre racine. La commande accepte a trois options :
+#      * jeter -l pour lister le contenu de la poubelle ;
+#      * jeter -r pour vider la poubelle ;
+#      * jeter fichier1 fichier2 ... pour déplacer les fichiers
+#                 considérés vers la poubelle.
+######################################################################
+#! /bin/bash
+POUBELLE=$HOME/poubelle
+
+if test ! -d $POUBELLE
+then 
+   mkdir $POUBELLE
+fi
+
+case $1 in 
+   -l) echo "$POUBELLE :"
+       ls $POUBELLE;;
+   -r) echo "la poubelle se vide..."
+       rm -r $POUBELLE/*;;
+   *)  mv $@ $POUBELLE;;
+esac 
+
+######################################################################
+# Exercice 11
+######################################################################
+#!/bin/bash
+
+while test "$1" != ""
+do
+   if test -x $1 -a  -f $1
+   then 
+      echo $1
+   elif test -d $1
+   then 
+      for f in `ls $1`
+      do 
+         if test -x $1/$f -a  -f $1/$f
+         then 
+            echo $1/$f
+         fi
+      done
+    fi
+   shift
+done
+######################################################################
+# Exercice 12
+######################################################################
+#!/bin/bash
+
+if test $# -ne 2
+then echo "nombre de parametres incorrecte"
+     exit 2
+fi
+expr $1 + $2 > /dev/null 2>/dev/null
+if test $? -eq 2 
+then
+   echo "Parametres non entiers"
+   exit 1
+fi
+
+if test $1 -ge $2
+then
+   echo "Intervalle incorrect"
+   exit 1
+fi
+inf=$1
+while test $inf -ne $2 
+do
+   res=`expr 2 \* $inf + 1`
+   echo $res
+   inf=`expr $inf + 1`
+done
+
+######################################################################
+# exercice 13
+# Ecrire une commande qui prend en argument un nombre quelconque de noms 
+# de fichier et affiche pour chacun :
+#     - son nom si c'est un fichier regulier non executable suivi de la 
+#       mention "est un fichier non executable",
+#     - son nom si c'est un fichier regulier executable suivi de la 
+#       mention "est un fichier executable",
+#     - la liste de tous les fichiers réguliers executables d'extension 
+#       ".truc" qu'il contient si c'est un repertoire
+######################################################################
+#!/bin/bash
+
+while test "$1" != ""
+do
+   if test -x $1 -a  -f $1
+   then 
+      echo $1 "est un fichier executable" 
+   elif test -f $1
+   then
+      echo $1 "est un fichier non executable" 
+   elif test -d $1
+   then 
+      for f in `ls $1/*.truc`
+      do 
+         if test -x $f -a  -f $f
+         then 
+            echo $f
+         fi
+      done
+    fi
+   shift
+done
+
+
+
+
+
+
+
+

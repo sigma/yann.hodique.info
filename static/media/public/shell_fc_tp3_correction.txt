@@ -1,0 +1,100 @@
+######################################################################
+# Ecrire une commande dont le code de retour est 0 si
+# son argument est à une valeur numérique et 1 sinon. 
+######################################################################
+#! /bin/bash
+expr $1 + 1 > /dev/null 2>/dev/null
+if test $? -eq 2
+then
+   exit 1
+else 
+   exit 0
+fi
+######################################################################
+# Ecrire une commande qui prend un nom de login en argument
+# et qui affiche la liste des numeros de processus de cet utilisateur
+# qui sont en cours sur la machine et qui sont "endormis". La solution
+# ne doit pas utiliser de fichiers temporaires. Verifier que le nombre
+# d'arguments est correct.
+######################################################################
+#!/bin/bash
+
+for pid in `ps -ux | grep "$1" | grep " S " | sed 's/  */:/g' | cut -d: -f2`
+do echo $pid
+done
+
+######################################################################
+# Ecrire une commande qui boucle en demandant le nom d'une
+variable. L'utilisateur entre le nom d'une variable et la commande
+affiche sa valeur. La commande s'arrête quand l'utilisateur entre FINI.
+######################################################################
+#! /bin/bash
+echo "Variable : "
+read var
+while test "$var" != "FINI"
+do
+   eval echo "\$$var"
+   echo "Variable : "
+   read var
+done
+
+######################################################################
+# tree
+# 1) Developper une commade qui affiche l'arborescence dont la racine
+#    est passee en parametre.
+# 2) Modifier la commande pour ajouter une indentation suivant la 
+#    profondeur du fichier par rapport a la racine.
+######################################################################
+#! /bin/bash
+
+FILES=`ls $1`
+for file in $FILES
+do
+   if test -f $1/$file
+   then 
+      echo $1/$file
+   elif test -d $1/$file
+   then 
+      $0 $1/$file
+   fi
+done
+######################################################################
+#! /bin/bash
+
+FILES=`ls $1`
+if test $# -eq 1
+then 
+   para="$1 --"
+   set $para
+fi
+for file in $FILES
+do
+   if test -f $1/$file
+   then 
+      echo "$2$1/$file"
+   elif test -d $1/$file
+   then
+      echo "$2$1/$file" 
+      $0 $1/$file "$2--"
+   fi 
+done
+######################################################################
+# La commande kill permet de tuer un processus en utilisant son numéro 
+# de processus ou de job. Ecrire une commande killname qui prend en 
+# argument un nom de commande et tue tous les processus correspondant 
+# à l'exécution de cette commande. Utilisez des fichiers temporaires et
+# veillez a ce qu'ils soient effaces lorsque la commande est terminee.
+######################################################################
+#! /bin/bash
+trap 'rm temp123; rm temp124; rm temp125; exit' 15
+ps -aux > temp123
+sed 's/  */:/g' temp123 > temp124
+cat temp124 | grep $1 > temp125
+for i in `cut -f 2 -d: temp125`
+do
+   kill -9 $i
+done
+rm temp123
+rm temp124
+rm temp125
+

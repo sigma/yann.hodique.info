@@ -1,0 +1,45 @@
++++
+title = "Managing AppEngine from IPython"
+date = "2012-04-09T17:48:00-00:00"
+categories = [ "blog" ]
+tags = [ "code", "python", "ipython" ]
+
++++
+
+
+When developing a [Google Appengine](http://code.google.com/appengine/)
+application, it can be a pain to manipulate the data in it, as you don't have
+a console where to write python code (like you have in the
+[dev appserver](http://code.google.com/appengine/docs/python/tools/devserver.html)).
+Fortunately,
+a
+[remote api](http://code.google.com/appengine/articles/remote_api.html) exists.
+
+I wanted a bit more, though:
+
+* integration with [IPython](http://ipython.scipy.org), to benefit from code
+  completion and other goodies
+* ability to use my  `.netrc` as a credentials provider
+
+So here is an IPython profile that does that (in addition, it wraps the
+functionality of
+[appcfg](http://code.google.com/appengine/docs/python/tools/uploadinganapp.html)).
+Except for the bulkloader functionality, which is kind of ugly, the original
+code from appengine was generic enough to allow that kind of manipulation in
+a relatively clean way.
+
+
+<script src="http://gist.github.com/556152.js?file=ipy_profile_gae.py"></script>
+      <noscript><a href="http://gist.github.com/raw/556152/ipy_profile_gae.py">http://gist.github.com/raw/556152/ipy_profile_gae.py</a></noscript>
+
+And this is what it allows:
+<script src="http://gist.github.com/556152.js?file=ipython_session"></script>      
+      <noscript><a href="http://gist.github.com/raw/556152/ipython_session">http://gist.github.com/raw/556152/ipython_session</a></noscript>
+
+Just in case, my  `~/.netrc` looks like:
+<script src="http://gist.github.com/556152.js?file=netrc"></script>
+      <noscript><a href="http://gist.github.com/raw/556152/netrc">http://gist.github.com/raw/556152/netrc</a></noscript>
+
+And of course, all those appengine libraries have to be somewhere in your python path. Here is the  `.pth` file for my dedicated [virtualenv](http://pypi.python.org/pypi/virtualenv)
+<script src="http://gist.github.com/556152.js?file=virtualenv_path_extensions.pth"></script>
+      <noscript><a href="http://gist.github.com/raw/556152/virtualenv_path_extensions.pth">http://gist.github.com/raw/556152/virtualenv_path_extensions.pth</a></noscript>
