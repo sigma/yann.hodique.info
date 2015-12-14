@@ -596,6 +596,10 @@ pre {
   position: relative;
   top: 2px;
 }
+.the-header .nav-global ul {
+  list-style: square;
+  padding-left: 1em;
+}
 /* MAIN
 --------------------------------------------------------------------------------- */
 .unit-article header {
