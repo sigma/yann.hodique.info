@@ -20,7 +20,7 @@ It's so fast and flexible that it's not even funny...  So today I went shopping
 for a nice theme, found
 a [Jekyll theme](https://github.com/jekyllbootstrap/theme-the-program) I liked
 (yes, I'm still very much into console-looking stuff), ported it to Hugo and
-worked on a Dokuwiki->Markdown converter (very primitive stuff, just enough to
-get me through 90% of the conversion, and I did the remaining 10% manually).
+worked on a Dokuwiki to Markdown converter (very primitive stuff, just enough
+to get me through 90% of the conversion, and I did the remaining 10% manually).
 
 And... voilà. Feels good
