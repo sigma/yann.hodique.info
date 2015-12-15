@@ -1,4 +1,4 @@
 +++
-tags = ["x", "y"]
-categories = ["x", "y"]
+tags = [ "x", "y" ]
+categories = [ "blog" ]
 +++
