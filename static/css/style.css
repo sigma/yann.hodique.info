@@ -581,7 +581,7 @@ pre {
 --------------------------------------------------------------------------------- */
 .the-header .logo {
   font-family: consolas, monaco, monospace;
-  margin: 0;
+  margin: -1em;
 }
 .the-header .logo a:visited {
   color: #2d2d2d;
