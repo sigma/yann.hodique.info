@@ -1,6 +1,6 @@
 +++
 title = "A mocking framework for Emacs"
-date = "2012-04-09T17:48:00-00:00"
+date = "2011-11-04T17:48:00-00:00"
 categories = [ "blog" ]
 tags = [ "emacs", "mocking", "code" ]
 

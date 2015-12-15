@@ -1,6 +1,6 @@
 +++
 title = "Upgrading Dokuwiki"
-date = "2012-04-09T17:48:00-00:00"
+date = "2006-09-24T17:48:00-00:00"
 categories = [ "blog" ]
 tags = [ "dokuwiki" ]
 

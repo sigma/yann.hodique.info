@@ -1,6 +1,6 @@
 +++
 title = "fixing greek characters display"
-date = "2013-03-12T21:11:00-00:00"
+date = "2011-12-11T21:11:00-00:00"
 categories = [ "blog" ]
 tags = [ "unix", "emacs" ]
 

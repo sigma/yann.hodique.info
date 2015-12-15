@@ -1,6 +1,6 @@
 +++
 title = "DONE PhD Thesis"
-date = "2012-04-09T17:48:00-00:00"
+date = "2007-04-14T17:48:00-00:00"
 categories = [ "blog" ]
 tags = [ "phd", "yay" ]
 

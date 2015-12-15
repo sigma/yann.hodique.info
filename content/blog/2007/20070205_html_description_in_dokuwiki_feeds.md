@@ -1,6 +1,6 @@
 +++
 title = "Html description in Dokuwiki feeds"
-date = "2012-04-09T17:48:00-00:00"
+date = "2007-02-05T17:48:00-00:00"
 categories = [ "blog" ]
 tags = [ "dokuwiki" ]
 

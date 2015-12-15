@@ -1,6 +1,6 @@
 +++
 title = "A Community-based approach to Emacs packages Continuous Integration"
-date = "2013-03-12T21:11:00-00:00"
+date = "2012-04-09T21:11:00-00:00"
 categories = [ "blog" ]
 tags = [ "emacs" ]
 

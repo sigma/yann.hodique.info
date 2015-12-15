@@ -1,6 +1,6 @@
 +++
 title = "Org-mode links for Magit"
-date = "2012-04-09T17:48:00-00:00"
+date = "2011-08-12T17:48:00-00:00"
 categories = [ "blog" ]
 tags = [ "emacs", "magit", "org" ]
 

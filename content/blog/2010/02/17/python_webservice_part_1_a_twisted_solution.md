@@ -1,6 +1,6 @@
 +++
 title = "Python Webservice, part 1 : a Twisted solution"
-date = "2012-04-09T17:48:00-00:00"
+date = "2010-02-17T17:48:00-00:00"
 categories = [ "blog" ]
 tags = [ "code", "python", "twisted" ]
 +++

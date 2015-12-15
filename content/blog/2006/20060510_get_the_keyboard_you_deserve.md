@@ -1,6 +1,6 @@
 +++
 title = "Get the keyboard you deserve !"
-date = "2012-04-09T17:48:00-00:00"
+date = "2006-10-05T17:48:00-00:00"
 categories = [ "blog" ]
 tags = [ "keyboard" ]
 

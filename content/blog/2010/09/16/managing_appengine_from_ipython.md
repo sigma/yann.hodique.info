@@ -1,6 +1,6 @@
 +++
 title = "Managing AppEngine from IPython"
-date = "2012-04-09T17:48:00-00:00"
+date = "2010-09-16T17:48:00-00:00"
 categories = [ "blog" ]
 tags = [ "code", "python", "ipython" ]
 

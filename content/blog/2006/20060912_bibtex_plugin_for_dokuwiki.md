@@ -1,6 +1,6 @@
 +++
 title = "BibTeX plugin for Dokuwiki"
-date = "2012-04-09T17:48:00-00:00"
+date = "2006-12-09T17:48:00-00:00"
 categories = [ "blog" ]
 tags = [ "dokuwiki", "code" ]
 
