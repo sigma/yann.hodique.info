@@ -8,7 +8,7 @@ tags = [ "zaurus" ]
 
 Here it is, I have finally received this gorgeous piece of hardware : a Zaurus :)
 
-{{< figure src="/media/zaurus_c3200.jpg" alt="Zaurus C3200" class="right" >}}
+{{< figure src="/media/blog/2006/zaurus_c3200.jpg" alt="Zaurus C3200" class="right" >}}
 
 Better a picture than a long talk, here is the beast. This model can be found
 only in Japan, so I had to import it via Ebay. Rather expensive, but very
