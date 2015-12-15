@@ -2,6 +2,10 @@ box: debian
 build:
   steps:
     - arjen/hugo-build@1.8.1
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         domain: yann.hodique.info
