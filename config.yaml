@@ -14,6 +14,7 @@ params:
   GoogleUser: "YannHodique"
   LinkedInUser: "hodique"
   StackExchangeId: "392509"
+  disqusShortname: "yannhodiqueinfo"
   ResumePdf: "https://www.dropbox.com/s/tfwsv2e2qhjsw7u/cv.pdf"
   ListOfFoo:
     - "foo1"
