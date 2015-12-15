@@ -87,7 +87,7 @@ There are two kinds of functional units in this languages
    code prevent from having a notion of `return`. Thus, they all end with
    a `call` to another `func`
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (func function-name
   <statement 1>
   ...
@@ -96,7 +96,7 @@ There are two kinds of functional units in this languages
 
 *  `macro`: as usual,  `macro` allows to inline a block of code. It is essential for the same reason: there is no  `return`. Thus, code replication is unavoidable
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (macro macro-name
   <statement 1>
   ...
@@ -109,7 +109,7 @@ The body of a top-level form is composed of statements.
 
 *  `progn`: a classical sequence in Lisp. It reflects the execution of all its arguments
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (progn
   <statement 1>
   ...
@@ -118,19 +118,19 @@ The body of a top-level form is composed of statements.
 
 *  `turn`: the primitive action of making the ant turn its head in the given direction ( `'left` or  `'right` or any variable that contains one of these symbols)
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (turn 'left)
 {{< /highlight >}}
 
 *  `mark`,  `unmark`: the primitive action of putting/removing a mark at the current position
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (mark 0)
 {{< /highlight >}}
 
 *  `if`: the choice betwwen two statements, based on a condition
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (if <condition>
     <statement 1>
   <statement 2>)
@@ -139,7 +139,7 @@ The body of a top-level form is composed of statements.
 *  `when` and  `unless`: trivial variants of  `if`
 *  `cond`: generalized  `if`
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (cond (<condition 1>
        <statement 1>)
       ...
@@ -149,26 +149,26 @@ The body of a top-level form is composed of statements.
 
 *  `drop`: drop the food in-place
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (drop)
 {{< /highlight >}}
 
 *  `call`: branch to the beginning of another function
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (call 'another-function)
 {{< /highlight >}}
 
 *  `while`: classical loop structure
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (while <condition>
   <statement>)
 {{< /highlight >}}
 
 *  `dotimes`: constant loop
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (dotimes 3
   <statement>)
 {{< /highlight >}}
@@ -181,28 +181,28 @@ Several instructions produce boolean results, to be used within the context of c
 
 *  `pickup`: try to pick food up there
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (if (pickup)
   ...)
 {{< /highlight >}}
 
 *  `flip`: basic  *random* action. The highest the argument, the most unlikely the event.
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (if (flip 3)
   ...)
 {{< /highlight >}}
 
 *  `move`: a movement may fail, due to a rock, another ant, 
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (if (move)
   ...)
 {{< /highlight >}}
 
 *  `sense`: try to detect something somewhere
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (if (sense 'left-ahead 'food)
   ...)
 {{< /highlight >}}
@@ -213,7 +213,7 @@ Several instructions produce boolean results, to be used within the context of c
 
 The engine makes it possible to express in a lisp-like language strategies like the following
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 ;; this will be inlined for each "invocation"
 (macro uturn ()
   (dotimes 3 (turn left)))
@@ -281,7 +281,7 @@ The engine makes it possible to express in a lisp-like language strategies like 
 
 Let's see the code of the compiler
 
-{{< highlight lisp >}}
+{{< highlight cl >}}
 (defpackage icfp
   (:use common-lisp)
   (:export func macro make-program dump-program))
