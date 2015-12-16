@@ -14,11 +14,11 @@ changes live.
 
 This I achieve by having submodules like the following (from my  `.gitmodules`)
 
-```
+{{< highlight ini >}}
 [submodule "_emacs.d/packages-src/magit"]
         path = _emacs.d/packages-src/magit
         url = git://github.com/sigma/magit.git
-```
+{{< /highlight >}}
 
 Now something that's been bugging me is the choice between allowing people to
 clone the entire thing seamlessly (meaning using the public URL of the
@@ -31,10 +31,10 @@ no big hope.
    a solution (from git 1.6.5 apparently). I just had to add this to my
    `.gitconfig`, and everything works transparently !
 
-```
+{{< highlight ini >}}
 [url "git@github.com:sigma/"]
         pushInsteadOf = git://github.com/sigma/
-```
+{{< /highlight >}}
 
 What it does is extremely simple actually whenever I'm trying to push to the
 anonymous version of one of my repositories (they all live under `sigma/`), the

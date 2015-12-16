@@ -1383,6 +1383,9 @@ pre .il {
   color: #3677a9;
 }
 /* Literal.Number.Integer.Long */
+a.linkifyplus {
+  color: #ffffff;
+}
 /*
 helper.css contains non-semantic helper classes
 This must be the last file to import
