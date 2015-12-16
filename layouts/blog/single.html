@@ -18,6 +18,13 @@
                   {{ .Content }}
                 </div>
               </div>
+              <aside id="meta">
+                <div class="list-tag">
+                  {{ range .Params.tags }}
+                  <span><a href="/tags/{{ . | urlize }}">{{ . }}</a></span>
+                  {{ end }}
+                </div>
+              </aside>
               {{ partial "disqus.html" . }}
             </div>
           </div>
