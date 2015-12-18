@@ -1,8 +1,11 @@
 +++
 title = "Sûreté et optimisation par les systèmes de types en contexte ouvert et contraint"
 date = "2012-04-09T17:48:00-00:00"
+categories = [ "research" ]
 
 +++
+
+[this page is also available in [english]({{< relref "abstract.md" >}})]
 
 La généralisation des équipements électroniques embarqués provoque des besoins
 croissants d'adaptabilité en ce qui concerne les systèmes logiciels qui doivent

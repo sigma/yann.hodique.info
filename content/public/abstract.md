@@ -1,10 +1,11 @@
 +++
 title = "Safety and optimization by typing in the context of open and constraint devices"
 date = "2012-04-09T17:48:00-00:00"
+categories = [ "research" ]
 
 +++
 
-[this page is also available in [french]({{< relref "abstract_fr.md" >}})]
+[cette page est aussi disponible en [français]({{< relref "abstract_fr.md" >}})]
 
 The generalization of embedded electronic devices implies growing needs for
 adaptability regarding the software systems that are meant to be deployed on
