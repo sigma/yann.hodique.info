@@ -14,7 +14,11 @@ I've been following the instructions
 [wercker](http://wercker.com). It works beautifully, although I *did* have to
 do a minor modification: since I make heavy use of
 [Pygments](http://pygments.org/) to display source code, I needed to make sure
-it's available in the context of this automated build.
+it's available in the context of this automated build (*update*: looking at the
+code of
+[arjen/hugo-build](https://github.com/ArjenSchwarz/wercker-step-hugo-build/blob/master/run.sh#L95..L109),
+it should not be needed, so not exactly sure what's going on here, I'll
+investigate later).
 
 This is very easily achieved with this final `wercker.yml`
 
