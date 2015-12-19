@@ -20,10 +20,3 @@ If I already sent some emails to you, you know that I like quotes from Frank Her
 > The capacity to learn is a gift; The ability to learn is a skill; The willingness to learn is a choice.
 >
 > -- Rebec of Ginaz
-
-
-## Contact
-
-personal mail : \<firstname\>.\<lastname\>@gmail.com
-
-

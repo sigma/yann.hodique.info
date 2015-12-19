@@ -2,15 +2,15 @@
 		<div class="unit-foot">
 			<div class="unit-inner unit-foot-inner">
 				<div class="misc vcard">
-					<h4>about</h4>
+					<h4>about me</h4>
 					<ul>
-					  <li class="contact"><address><span class="author fn n">{{ .Site.Params.AuthorName }}</span></li>
-                                          <li class="resume"><a href="/public/cv">Resume</a> -- <a href="{{ .Site.Params.ResumePdf }}">pdf</a></li>
-                                          <li class="se"><a href="http://stackexchange.com/users/{{.Site.Params.StackExchangeId}}">stackexchange.com/users/{{.Site.Params.StackExchangeId}}</a></li>
-                                          <li class="linkedin"><a href="https://www.linkedin.com/in/{{.Site.Params.LinkedInUser}}">linkedin.com/in/{{.Site.Params.LinkedInUser}}</a></li>
-					  <li class="github"><a href="https://github.com/{{ .Site.Params.GitHubUser }}/" rel="me">github.com/{{ .Site.Params.GitHubUser }}</a></li>
-					  <li class="twitter"><a href="https://twitter.com/{{ .Site.Params.TwitterUser }}/" rel="me">twitter.com/{{ .Site.Params.TwitterUser }}</a></li>
-                                          <li class="google"><a href="https://plus.google.com/+{{ .Site.Params.GoogleUser }}/" rel="me">plus.google.com/+{{ .Site.Params.GoogleUser }}</a></li> 
+					  <li class="contact"><a class="author fn n" href="mailto:{{ .Site.Params.AuthorEmail }}"><i class="fa fa-user fa-fw"></i> {{ .Site.Params.AuthorName }}</a></li>
+                                          <li class="resume"><a href="{{ .Site.Params.ResumePdf }}"><i class="fa fa-file-pdf-o fa-fw"></i> resume</a></li> 
+                                          <li class="se"><a href="http://stackexchange.com/users/{{.Site.Params.StackExchangeId}}"><i class="fa fa-stack-exchange fa-fw"></i> stackexchange.com/users/{{.Site.Params.StackExchangeId}}</a></li>
+                                          <li class="linkedin"><a href="https://www.linkedin.com/in/{{.Site.Params.LinkedInUser}}"><i class="fa fa-linkedin-square fa-fw"></i> linkedin.com/in/{{.Site.Params.LinkedInUser}}</a></li>
+					  <li class="github"><a href="https://github.com/{{ .Site.Params.GitHubUser }}/" rel="me"><i class="fa fa-github fa-fw"></i> github.com/{{ .Site.Params.GitHubUser }}</a></li>
+					  <li class="twitter"><a href="https://twitter.com/{{ .Site.Params.TwitterUser }}/" rel="me"><i class="fa fa-twitter fa-fw"></i> twitter.com/{{ .Site.Params.TwitterUser }}</a></li>
+                                          <li class="google"><a href="https://plus.google.com/+{{ .Site.Params.GoogleUser }}/" rel="me"><i class="fa fa-google-plus-square fa-fw"></i> plus.google.com/+{{ .Site.Params.GoogleUser }}</a></li> 
 					</ul>
 				</div><!-- misc -->
 			</div><!-- unit-foot-inner -->
