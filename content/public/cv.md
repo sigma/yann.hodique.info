@@ -16,7 +16,7 @@ I was previously:
 * a Sr R&D Engineer at [VMware](http://www.vmware.com).
 * a Sr Qa Engineer at [VMware](http://www.vmware.com).
 * a R&D Software Engineer at [Trusted Logic](http://www.trusted-logic.com).
-* a PhD student in team STC of the LIFL lab. (phd thesis here : [hodique-phd.pdf](/media/public/hodique-phd.pdf))
+* a PhD student in team STC of the LIFL lab. (phd thesis here: [hodique-phd.pdf](/media/public/hodique-phd.pdf))
 * a student of ENS Cachan (2002-2004).
 
 ## Education
@@ -33,7 +33,7 @@ I was previously:
 | 2003-2007:  | Doctorat (PhD thesis) in computer Science |
 | 2002-2003:  | DEA (Master thesis) in Computer Science |
 | 2001-2002:  | Maîtrise (between Bachelor's and Master's degree) in Computer Science |
-|             | Succeeded 3rd year entry exam at ENS Cachan ( [antenne de Bretagne](http://www.bretagne.ens-cachan.fr) ).  |
+|             | Succeeded 3rd year entry exam at ENS Cachan ([antenne de Bretagne](http://www.bretagne.ens-cachan.fr)).  |
 | 2000-2001:  | Maîtrise (between Bachelor's and Master's degree) in Pure Mathematics |
 |             | Licence (Bachelor's degree) in Computer Science |
 | 1999-2000:  | Licence (Bachelor's degree) in Pure Mathematics |
@@ -47,8 +47,8 @@ I was previously:
 |     |     |
 | --- | --- |
 | OS: | GNU/Linux, various Unices  |
-| Programming:  | C, C++, Java, Ada, Delphi, Python,  Perl , Shell Script, Common Lisp, Scheme, Javascript, x86 asm  |
-| Softwares:    | GNU Emacs, KDevelop, Gcc, Gdb, OpenOffice, TeX/LaTeX, Apache, Trac, PostgreSQL, Postfix, Cvs, Subversion, Arch, Bazaar, Git  |
+| Programming:  | C, C++, Go, Python, Shell Script, Common Lisp, Scheme, Javascript, x86 asm  |
+| Softwares:    | GNU Emacs, Gcc, Gdb, TeX/LaTeX, Git  |
 | Languages:    | French, English, German (high school level), Ancient greek  ;-)  (same remark)  |
 | Interests:    | Free softwares, Music, Litterature  |
 
