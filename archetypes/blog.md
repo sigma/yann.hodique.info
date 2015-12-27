@@ -1,4 +1,5 @@
 +++
-tags = [ "x", "y" ]
+draft = true
+tags = [ "emacs" ]
 categories = [ "blog" ]
 +++
