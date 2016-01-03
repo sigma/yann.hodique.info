@@ -8,6 +8,8 @@ permalinks:
 googleAnalytics: "UA-71947478-1"
 social:
   twitter: yann_hodique
+  googlePlus: YannHodique
+  facebook: yann.hodique
 params:
   AuthorName: "Yann Hodique"
   AuthorEmail: "yann.hodique@gmail.com"
