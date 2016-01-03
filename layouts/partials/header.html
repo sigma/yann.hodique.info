@@ -12,7 +12,10 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
         <link rel="shortcut icon" href="/favicon.ico" />
-</head>
+        {{ template "_internal/opengraph.html" . }}
+        {{ template "_internal/google_news.html" . }}
+        {{ template "_internal/schema.html" . }}
+        {{ template "_internal/twitter_cards.html" . }}</head>
 <body>
 
 <div id="page" class="hentry">

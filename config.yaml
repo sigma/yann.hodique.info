@@ -5,6 +5,9 @@ title: "Yann Hodique"
 footnotereturnlinkcontents: "↩"
 permalinks:
   post: /:year/:month/:title/
+googleAnalytics: "UA-71947478-1"
+social:
+  twitter: yann_hodique
 params:
   AuthorName: "Yann Hodique"
   AuthorEmail: "yann.hodique@gmail.com"
