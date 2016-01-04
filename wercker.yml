@@ -4,6 +4,10 @@ build:
     - install-packages:
         packages: python-pygments
     - arjen/hugo-build@1.8.1
+  after-steps:
+    - slack-notifier:
+        url: $SLACK_URL
+        username: wercker
 deploy:
   steps:
     - install-packages:
