@@ -1,4 +1,4 @@
-box: debian
+box: ubuntu:wily
 build:
   steps:
     - install-packages:
@@ -11,7 +11,7 @@ build:
 deploy:
   steps:
     - install-packages:
-        packages: git ssh-client
+        packages: git openssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         domain: yann.hodique.info
