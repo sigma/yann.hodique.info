@@ -6,7 +6,7 @@ title = "Fixing blog deployment"
 
 +++
 
-Followup to {{< relref "blog-automated-deployment.md" >}}.
+Followup to [this post]({{< relref "blog-automated-deployment.md" >}}).
 
 I've encountered a few difficulties today, when my
 [Wercker](http://wercker.com/) setup started failing while installing the few
