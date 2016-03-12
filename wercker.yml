@@ -1,8 +1,6 @@
-box: ubuntu:wily
+box: sigma/blog-builder:v0.1.1
 build:
   steps:
-    - install-packages:
-        packages: python-pygments
     - arjen/hugo-build@1.8.1
   after-steps:
     - slack-notifier:
@@ -10,8 +8,6 @@ build:
         username: wercker
 deploy:
   steps:
-    - install-packages:
-        packages: git openssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
         domain: yann.hodique.info
