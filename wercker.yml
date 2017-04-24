@@ -9,7 +9,7 @@ build:
         username: wercker
 deploy:
   steps:
-    - lukevivier/gh-pages:
+    - sf-zhou/gh-pages@0.2.6:
         token: $GIT_TOKEN
         domain: yann.hodique.info
         basedir: public
