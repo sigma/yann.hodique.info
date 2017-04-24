@@ -23,4 +23,6 @@ params:
   ListOfFoo:
     - "foo1"
     - "foo2"
+pygmentsCodeFences: true
+pygmentsStyle: "solarizeddark"
 ...
