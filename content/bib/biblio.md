@@ -4,7 +4,7 @@ date = "2012-04-09T17:48:00-00:00"
 categories = [ "bib" ]
 +++
 
-```
+```bibtex
 @INPROCEEDINGS { alsm03acp4is,
   AUTHOR = {R.A. AAberg and J.L. Lawall and M. Sdholt and G. Muller},
   TITLE = { Evolving an OS kernel using temporal logic and AOP},

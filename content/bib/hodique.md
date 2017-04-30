@@ -5,7 +5,7 @@ categories = [ "bib" ]
 
 +++
 
-```
+```bibtex
 @PHDTHESIS {hodique-phd,
   AUTHOR =       {Y. Hodique},
   TITLE =      {Sûreté et optimisation par les systèmes de types en contexte ouvert et contraint},
