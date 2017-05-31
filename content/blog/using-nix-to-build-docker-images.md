@@ -28,6 +28,7 @@ And that always gives opportunities to do things more efficiently.
 
 Following this, I made a few changes to Luca's approach, further overriding the
 package definitions to achieve:
+
 * removal of unneeded binaries
 * usage of su-exec instead of gosu (which, as a go binary, is not exactly slim)
 * removal of glibc, in favor of musl
