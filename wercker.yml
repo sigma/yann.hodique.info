@@ -2,7 +2,7 @@ box: sigma/blog-builder:v1.0.2
 build:
   steps:
     - arjen/hugo-build:
-        version: "0.21"
+        version: "0.22"
   after-steps:
     - slack-notifier:
         url: $SLACK_URL
@@ -20,4 +20,4 @@ deploy:
 dev:
   steps:
     - arjen/hugo-build:
-        version: "0.21"
+        version: "0.22"
