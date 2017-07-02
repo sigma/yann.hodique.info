@@ -1,5 +1,7 @@
 ---
-baseurl: "http://yann.hodique.info/"
+#baseurl: "http://yann.hodique.info/"
+baseurl: ""
+relativeURLs: true
 languageCode: "en-us"
 title: "Yann Hodique"
 footnotereturnlinkcontents: "↩"
