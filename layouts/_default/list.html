@@ -13,6 +13,9 @@
                   </div>
                 </div>
               </div>
+              {{ if .Content }}
+              {{ .Content }}
+              {{ else }}
               <div class="bd">
                 <div class="entry-content">
                   <ul id="list">
@@ -22,6 +25,7 @@
                   </ul>
                 </div>
               </div>
+              {{ end }}
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ The most recent (and thus active) come first.
 | [vco-gae](https://github.com/sigma/vco-gae/tree) | vCO Simulator on  [Google Appengine](http://code.google.com/appengine/) /Python |
 | [vmw.vco](https://github.com/sigma/vmw.vco/tree) | Python bindings for  [VMware Orchestrator](http://www.vmware.com/support/pubs/orchestrator_pubs.html) |
 | [Twist the Milk](https://github.com/sigma/twistthemilk) | A Twisted version of the python  API  for  [Remember the Milk](http://www.rememberthemilk.com/) |
-| [bibtex-plugin](|filename|/import/projects/bibtex_plugin.md) | A BibTeX plugin for Dokuwiki |
+| [bibtex-plugin]({{< relref "bibtex_plugin.md" >}}) | A BibTeX plugin for Dokuwiki |
 | [Trac-Bzr](http://launchpad.net/products/trac-bzr) | A Trac plugin for using Bzr |
 | [(osd)](https://github.com/sigma/lisposd/tree) | A guile frontend for libxosd  |
 | [Lispy](https://github.com/sigma/lispy/tree) | A chat client again, but this time it is written in emacs-lisp  |
