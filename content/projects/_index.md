@@ -35,6 +35,7 @@ I regularly take part in the development of a software, when I feel a need for m
 | --- | --- |
 |  Project  |  Role  |
 | [Kdevelop](http://www.kdevelop.org) | Former member of the   " core team " |
+| [Emacs]({{< relref "emacs.md" >}}) | Contributor  |
 | [Erbot](http://savannah.nongnu.org/projects/erbot) | Contributor  |
 | [Muse](http://emacswiki.org/cgi-bin/wiki/MuseMode) | Contributor |
 | [Planner](http://emacswiki.org/cgi-bin/wiki/PlannerMode) | Contributor |

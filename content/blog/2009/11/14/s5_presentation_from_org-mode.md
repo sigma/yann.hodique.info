@@ -10,8 +10,9 @@ tags = [ "emacs", "org", "s5" ]
 Generating [S5](http://meyerweb.com/eric/tools/s5/) based presentations from an
 [Org Mode](http://orgmode.org) file is something I've considered for a while.
 I've just published some working code to do so:
-[http://github.com/sigma/org-s5](http://github.com/sigma/org-s5)The README file
-should give the basic steps to make it work.
+[http://github.com/sigma/org-s5](http://github.com/sigma/org-s5)
+
+The README file should give the basic steps to make it work.
 
 Constraints I wanted to respect:
 
