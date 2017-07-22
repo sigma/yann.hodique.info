@@ -48,7 +48,7 @@ being available at home and one in a secure location. I'm using them to hold
 copies of my master key, revocation certificates, and a few other important
 things. They are pin-protected, FIPS-compliant (military-grade) and will
 destroy their content after a few (10 I think) attempts (which is why it's
-important to keep of on them somewhere safe !)
+important to keep one of them somewhere safe !)
 All in all, good enough for me :)
 
 ## Yubikeys ##
