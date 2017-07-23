@@ -29,17 +29,13 @@ code from appengine was generic enough to allow that kind of manipulation in
 a relatively clean way.
 
 
-<script src="http://gist.github.com/556152.js?file=ipy_profile_gae.py"></script>
-      <noscript><a href="http://gist.github.com/raw/556152/ipy_profile_gae.py">http://gist.github.com/raw/556152/ipy_profile_gae.py</a></noscript>
+{{< gist sigma 556152 "ipy_profile_gae.py" >}}
 
 And this is what it allows:
-<script src="http://gist.github.com/556152.js?file=ipython_session"></script>      
-      <noscript><a href="http://gist.github.com/raw/556152/ipython_session">http://gist.github.com/raw/556152/ipython_session</a></noscript>
+{{< gist sigma 556152 "ipython_session" >}}
 
 Just in case, my  `~/.netrc` looks like:
-<script src="http://gist.github.com/556152.js?file=netrc"></script>
-      <noscript><a href="http://gist.github.com/raw/556152/netrc">http://gist.github.com/raw/556152/netrc</a></noscript>
+{{< gist sigma 556152 "netrc" >}}
 
 And of course, all those appengine libraries have to be somewhere in your python path. Here is the  `.pth` file for my dedicated [virtualenv](http://pypi.python.org/pypi/virtualenv)
-<script src="http://gist.github.com/556152.js?file=virtualenv_path_extensions.pth"></script>
-      <noscript><a href="http://gist.github.com/raw/556152/virtualenv_path_extensions.pth">http://gist.github.com/raw/556152/virtualenv_path_extensions.pth</a></noscript>
+{{< gist sigma 556152 "virtualenv_path_extensions.pth" >}}
