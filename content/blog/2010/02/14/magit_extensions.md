@@ -64,8 +64,4 @@ right now :():
 *  a way to activate those extensions on a per-project basis (I use both
    git-svn and git-p4 but never at the same time. same for topgit vs stgit)
 
-An example being worth a thousand words, here is how to code the magit-topic
-extension. If you know the Magit code base, you should feel nearly at home.
-{{< gist sigma 303969 >}}
-
 Feel free to tell me what you think, any comment or advice is highly welcome !
