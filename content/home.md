@@ -7,7 +7,7 @@ date = "2012-08-12T08:13:00-00:00"
 <p style="text-align: center; font-size: 200%;">This Page is Forever Unfinished</p>
 
 
-<p style="text-align: center; font-size: 120%;">The postings on this site are my own and do not represent VMware's positions, strategies or opinions.</p>
+<p style="text-align: center; font-size: 120%;">The postings on this site are my own and do not represent Google's positions, strategies or opinions.</p>
 
 ---
 
