@@ -6,10 +6,11 @@ aliases = [ "/public/resume" ]
 
 ## Situation
 
-I'm a Staff Engineer at [VMware](http://www.vmware.com).
+I'm a Staff Engineer at [Google](https://www.google.com/intl/en/about/our-company/).
 
 I was previously:
 
+* a Staff Engineer at [VMware](http://www.vmware.com)
 * a Software Engineer at [Bromium](http://www.bromium.com).
 * a QA & Integration Team Leader at [Nagra](http://www.nagra.com).
 * a Sr Software Engineer at [Ulteo](http://www.ulteo.com).
@@ -19,11 +20,12 @@ I was previously:
 * a PhD student in team STC of the LIFL lab. (phd thesis here: [hodique-phd.pdf](/media/public/hodique-phd.pdf))
 * a student of ENS Cachan (2002-2004).
 
-## Education
+## Timeline
 
 |     |     |
 | --- | --- |
-| 2014-...:   | Staff Engineer [VMware](http://www.vmware.com)  Palo Alto (USA) |
+| 2017-present:  | Staff Engineer [Google](https://www.google.com/intl/en/about/our-company/)  Mountain View (USA) |
+| 2014-2017:  | Staff Engineer [VMware](http://www.vmware.com)  Palo Alto (USA) |
 | 2013-2014:  | Software Engineer  [Bromium](http://www.bromium.com)  Canbridge (UK) |
 | 2012:       | QA & Integration Team Leader  [Nagra](http://www.nagra.com)  Lausanne (Switzerland) |
 | 2012:       | Senior Software Engineer  [Ulteo](http://www.ulteo.com)  Home Office (France) |
