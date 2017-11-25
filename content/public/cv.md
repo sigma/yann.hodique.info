@@ -58,6 +58,5 @@ I was previously:
 ## Others
 
 You also may want to have a look at my
-[personal productions](|filename|/import/projects/index.md), or
-[university works](|filename|/import/public/works.md), or even long version
-[resume](|filename|resume.md)
+[personal productions]({{< ref "projects/index.md" >}}), or
+[university works]({{< ref "public/works.md" >}})

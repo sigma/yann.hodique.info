@@ -8,6 +8,6 @@ every thursday from 5.15pm to 8.15pm
 
 # Courses
 
-* [course 1](/media/initc_fc_1.pdf)
-* [course 2](/media/initc_fc_2.pdf)
-* [course 3](/media/initc_fc_3.pdf)
+* [course 1](/media/public/initc_fc_1.pdf)
+* [course 2](/media/public/initc_fc_2.pdf)
+* [course 3](/media/public/initc_fc_3.pdf)

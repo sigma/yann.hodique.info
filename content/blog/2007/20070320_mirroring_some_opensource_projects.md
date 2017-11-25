@@ -34,8 +34,8 @@ from two drawbacks (at least for me)
     in these softwares
 
 The second point is the most important, of course :) In previous posts
-([here](|filename|/import/blog/2006/20062409_upgrading_dokuwiki.md) and
-[there](|filename|/import/blog/2006/20062709_upgrading_dokuwiki_round_2.md)),
+([here]({{< ref "blog/2006/20062409_upgrading_dokuwiki.md" >}}) and
+[there]({{< ref "blog/2006/20062709_upgrading_dokuwiki_round_2.md" >}})),
 I explained how do deal with [darcs](http://www.darcs.net/DarcsWiki) with the
 aid of [sshfs](http://fuse.sourceforge.net/sshfs.html), but it is unbearably
 slow. Deploying [bzr](http://bazaar-vcs.org/) on the server is much easier

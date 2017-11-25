@@ -7,8 +7,8 @@ categories = [ "research" ]
 
 ## My publications
 
-([hodique.bib](|filename|/pages/bib/hodique.md))
+([hodique.bib]({{< ref "bib/hodique.md" >}}))
 
 ## Related works
 
-([biblio.bib](|filename|/pages/bib/biblio.md))
+([biblio.bib]({{< ref "bib/biblio.md" >}}))
