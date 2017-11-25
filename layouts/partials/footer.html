@@ -4,7 +4,7 @@
 				<div class="misc vcard">
 					<h4>about me</h4>
 					<ul>
-					  <li class="contact"><a class="author fn n" href="mailto:{{ .Site.Params.AuthorEmail }}"><i class="fa fa-user fa-fw"></i> {{ .Site.Params.AuthorName }}</a></li>
+					  <li class="contact"><a class="author fn n" href="/public/cv"><i class="fa fa-user fa-fw"></i> {{ .Site.Params.AuthorName }}</a></li>
                                           <li class="resume"><a href="{{ .Site.Params.ResumePdf }}"><i class="fa fa-file-pdf-o fa-fw"></i> resume</a></li> 
                                           {{ with .Site.Params.StackExchangeId }}<li class="se"><a href="https://stackexchange.com/users/{{ . }}"><i class="fa fa-stack-exchange fa-fw"></i> stackexchange.com/users/{{ . }}</a></li>{{ end }}
                                           {{ with .Site.Params.LinkedInUser }}<li class="linkedin"><a href="https://www.linkedin.com/in/{{ . }}"><i class="fa fa-linkedin-square fa-fw"></i> linkedin.com/in/{{ . }}</a></li>{{ end }}
