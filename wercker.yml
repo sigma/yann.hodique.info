@@ -1,4 +1,4 @@
-box: sigma/blog-builder:v1.0.3
+box: sigma/blog-builder:latest
 build:
   steps:
     - arjen/hugo-build:
