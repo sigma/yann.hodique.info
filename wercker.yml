@@ -1,7 +1,8 @@
 box: sigma/blog-builder:v1.0.3
 build:
   steps:
-    - arjen/hugo-build
+    - arjen/hugo-build:
+        version: 0.31
   after-steps:
     - slack-notifier:
         url: $SLACK_URL
@@ -18,4 +19,5 @@ deploy:
         username: wercker
 dev:
   steps:
-    - arjen/hugo-build
+    - arjen/hugo-build:
+        version: 0.31
