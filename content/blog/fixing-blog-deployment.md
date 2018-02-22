@@ -24,7 +24,7 @@ pages deployment.
 
 The image itself is very simple:
 
-{{< highlight docker >}}
+```docker
 FROM ubuntu:15.10
 MAINTAINER Yann Hodique <yann.hodique@gmail.com>
 
@@ -32,11 +32,11 @@ RUN apt-get update -q \
   && DEBIAN_FRONTEND=noninteractive apt-get install -qy git openssh-client python-pygments curl \
   && apt-get clean \
   && rm -rf /var/lib/apt
-{{< /highlight >}}
+```
 
 On the blog side, it now looks like this:
 
-{{< highlight yaml >}}
+```YAML
 box: sigma/blog-builder:v0.1.3
 build:
   steps:
@@ -51,7 +51,7 @@ deploy:
         token: $GIT_TOKEN
         domain: yann.hodique.info
         basedir: public
-{{< /highlight >}}
+```
 
 Next step will be to figure out why my first Alpine-based attempt ended up
 deploying something completely absurd...
