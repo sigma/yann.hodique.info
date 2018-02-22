@@ -24,7 +24,7 @@ lookup, but I guess there's a fallback mechanism to elect another font when the
 selected one does not contain the required symbols.
 
 Anyway, as you can see in the following capture of my rxvt-unicode setup, it's
-not exactly pretty (bottom left for the display before fixing). It gets mucc
+not exactly pretty (bottom left for the display before fixing). It gets much
 better after modifying my `~/.Xdefaults` to contain:
 
 ```
