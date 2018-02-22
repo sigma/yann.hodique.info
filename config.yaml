@@ -26,5 +26,6 @@ params:
     - "foo1"
     - "foo2"
 pygmentsCodeFences: true
-pygmentsStyle: "solarizeddark"
+pygmentsUseClasses: true
+pygmentsCodefencesGuessSyntax: true
 ...
