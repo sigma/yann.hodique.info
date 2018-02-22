@@ -16,15 +16,12 @@ Social:
 params:
   AuthorName: "Yann Hodique"
   AuthorEmail: "yann.hodique@gmail.com"
-  Company: "VMware"
+  Company: "Google"
   GitHubUser: "sigma"
   LinkedInUser: "hodique"
   StackExchangeId: "392509"
   disqusShortname: "yannhodiqueinfo"
   ResumePdf: "https://sigma.keybase.pub/cv.pdf"
-  ListOfFoo:
-    - "foo1"
-    - "foo2"
 pygmentsCodeFences: true
 pygmentsUseClasses: true
 pygmentsCodefencesGuessSyntax: true
