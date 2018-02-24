@@ -19,4 +19,5 @@ So far it looks pretty convincing, as it allowed for the following changes:
   
 Other features I might use in the future:
 
-- branch deployments sound cool for those occasional massive rewrites
+- branch deployments sound cool for those occasional massive rewrites. I need to figure out the
+  DNS implications though.
