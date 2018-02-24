@@ -11,7 +11,9 @@ So far it looks pretty convincing, as it allowed for the following changes:
 - simplified the deployment story, removing werckr from the equation. Don't get me wrong
   I like the service, it's just that the amount of time spent on it is excessive.
 - the live-preview on pull requests will no doubt help me validate intrusive changes without
-  breaking everything in the process (not that anybody would actually notice, but still :))
+  breaking everything in the process (not that anybody would actually notice, but still :)).
+  Additionally, that will enable me to hack on the site directly on GitHub, without the need
+  for a local [hugo](https://gohugo.io) development environment.
 - automatic [Let's Encrypt](https://letsencrypt.org/) certificates is a very nice plus,
   the lack of SSL termination with custom domains was my main grievance with GitHub Pages.
   
