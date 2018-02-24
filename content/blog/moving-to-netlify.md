@@ -18,4 +18,5 @@ So far it looks pretty convincing, as it allowed for the following changes:
   the lack of SSL termination with custom domains was my main grievance with GitHub Pages.
   
 Other features I might use in the future:
+
 - branch deployments sound cool for those occasional massive rewrites
