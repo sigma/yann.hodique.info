@@ -13,7 +13,7 @@ way of writing code (in C, Lisp, Perl, Shell, ...), that ceased to be true for
 a while. With the gain in popularity of complex languages like Java, or C++,
 coders started to crave "fancy" features like code completion, refactoring, ...
 
-And quite unfortunately, these advanced features relied to complex tooling
+And quite unfortunately, these advanced features relied on complex tooling
 living outside of the languages themselves. Worse, the languages were developed
 in complete ignorance of these tools, which made them somewhat hostile to those
 goals (anybody who tried to implement a correct C++ parser knows what I mean,
