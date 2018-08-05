@@ -9,7 +9,7 @@ tags = [ "code", "python", "twisted" ]
 ## Twistd
 
 In my [previous post]({{< ref
-"blog/2010/02/17/python_webservice_part_1_a_twisted_solution.md" >}}) I've
+"/blog/2010/02/17/python_webservice_part_1_a_twisted_solution.md" >}}) I've
 explained how to generate a SOAP service from a WSDL file, and how to implement
 the required methods properly. A solution to run such a service is to use the
 Twisted Daemon, aka `twistd`.  Though not needed, strictly speaking, it

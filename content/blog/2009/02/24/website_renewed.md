@@ -11,6 +11,6 @@ It's been a long long time since this site has not been updated. Visually not
 much has changed, but :
 
 * Dokuwiki has been upgraded to latest version
-* [bibtex_plugin]({{< ref "projects/bibtex_plugin.md" >}}) has been heavily
+* [bibtex_plugin]({{< ref "/projects/bibtex_plugin.md" >}}) has been heavily
   reworked and cleaned (more to come on this topic)
 * everything is now managed by Git

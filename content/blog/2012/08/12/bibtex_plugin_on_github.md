@@ -9,7 +9,7 @@ tags = [ "bibtex", "dokuwiki" ]
 
 It seems there are still people out there that are coming to my site (or even
 my mailbox :)) due to my
-[Dokuwiki plugin for BibTeX entries]({{< ref "projects/bibtex_plugin.md" >}}).
+[Dokuwiki plugin for BibTeX entries]({{< ref "/projects/bibtex_plugin.md" >}}).
 While I'm always happy to help, I recognise the current situation (with the
 code living as a zipfile here) is not very practical.  Moreover, since I'm no
 longer in Academia, my involvement with this plugin is totally

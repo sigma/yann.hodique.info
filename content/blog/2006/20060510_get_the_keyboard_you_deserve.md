@@ -23,14 +23,16 @@ different taste and expectations about a keyboard because it's so personal.
 
 My preferred keyboard is
 a
-[Happy Hacking Keyboard Lite 2](http://pfuca-store.stores.yahoo.net/haphackeyser.html). It
+[Happy Hacking Keyboard Lite 2](https://www.amazon.com/Happy-Hacking-Keyboard-Lite2-White/dp/B000MTELL8). It
 is small, it hasn't all those useless keys that are far too common, the control
 key is in the right place. Also, it is a QWERTY keyboard. Even if I'm French,
 I find the french AZERTY layout just insane, and I would not use it, at any
 price. The reason for this is mostly that I'm a programmer, and since most of
 the programming languages were developed using QWERTY, the placement of braces,
 brackets, parentheses, backslashes, are very
-important.![http://www.pfu.fujitsu.com/en/hhkeyboard/images/lite2_us_top.jpg](/static/media/http://www.pfu.fujitsu.com/en/hhkeyboard/images/lite2_us_top.jpg)
+important.
+
+{{< figure src="https://images-na.ssl-images-amazon.com/images/I/41D3EhSc6NL.jpg" link="https://www.amazon.com/Happy-Hacking-Keyboard-Lite2-White/dp/B000MTELL8" alt="Happy Hacking Keyboard Lite 2">}}
 
 ## The software
 

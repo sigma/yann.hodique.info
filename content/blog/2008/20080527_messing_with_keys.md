@@ -8,7 +8,7 @@ tags = [ "keyboard" ]
 
 
 Context : as I mentioned in a [previous post]({{< ref
-"blog/2006/20060510_get_the_keyboard_you_deserve.md" >}}), I use a slightly
+"/blog/2006/20060510_get_the_keyboard_you_deserve.md" >}}), I use a slightly
 modified qwerty map, where parentheses and brackets are switched.
 Quite recently, for various reasons, I came to use
 [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html) as

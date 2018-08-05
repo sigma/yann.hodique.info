@@ -19,4 +19,4 @@ afraid I've been a little obscure from time to time
 Well, all in all it was a really nice day, that concluded 10 years of
 studies. As would Jorge Cham say, what is left is
 
-{{< figure src="http://www.phdcomics.com/comics/archive/phd040207s.gif" link="http://www.phdcomics.com/comics.php?f=844" alt="Now what?" >}}
+{{< figure src="https://www.phdcomics.com/comics/archive/phd040207s.gif" link="https://www.phdcomics.com/comics.php?f=844" alt="Now what?" >}}
