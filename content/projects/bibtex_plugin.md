@@ -6,8 +6,8 @@ categories = ["projects"]
 +++
 
 Since this site is also my professional webpage, I have a need for referencing
-articles I have read or written (see [subject]({{< ref "public/subject.md"
->}}) and [bibliography]({{< ref "public/bibliography.md" >}}) for example).
+articles I have read or written (see [subject]({{< ref "/public/subject.md"
+>}}) and [bibliography]({{< ref "/public/bibliography.md" >}}) for example).
 A previous version of my site was using [PmWiki](http://www.pmwiki.org) and
 I had developped with some friends of mine a BibTeX plugin
 ([BibtexRef](http://www.pmwiki.org/wiki/Cookbook/BibtexRef)) to fit our needs
@@ -32,20 +32,20 @@ There are two commands available for wiki pages:
 
 ### Example 1
 
- `<BIBTEX: file=hodique>` parses the content of [hodique.bib]({{< ref "bib/hodique.md" >}}) and outputs :
+ `<BIBTEX: file=hodique>` parses the content of [hodique.bib]({{< ref "/bib/hodique.md" >}}) and outputs :
 
 ### Example 2
 
- `{[hodique:ghsr06ijpeds]}` looks for the reference ghsr06ijpeds in file [hodique.bib]({{< ref "bib/hodique.md" >}}) and outputs :
+ `{[hodique:ghsr06ijpeds]}` looks for the reference ghsr06ijpeds in file [hodique.bib]({{< ref "/bib/hodique.md" >}}) and outputs :
 
 ## Storage
 
 The data for building the citations and references are stored in one or more wiki pages that reflect .bib files.
-For example, in this site there are 2 bibtex  "files" : [hodique.bib]({{< ref "bib/hodique.md" >}}) for my publications and [biblio.bib]({{< ref "bib/biblio.md" >}}) for related works by others.
+For example, in this site there are 2 bibtex  "files" : [hodique.bib]({{< ref "/bib/hodique.md" >}}) for my publications and [biblio.bib]({{< ref "/bib/biblio.md" >}}) for related works by others.
 
 Please note that the plugin will parse the content of the  **underlying file**, not the interpreted page, so that it is very important that no additional markup is present in these.
 
-I find it convenient to prefix every single line of my bib pages with two spaces, so that the entire data is not interpreted by the wiki engine while remaining valid bibtex syntax : see the source of [hodique.bib]({{< ref "bib/hodique.md" >}}) for example.
+I find it convenient to prefix every single line of my bib pages with two spaces, so that the entire data is not interpreted by the wiki engine while remaining valid bibtex syntax : see the source of [hodique.bib]({{< ref "/bib/hodique.md" >}}) for example.
 
 ## Citation pages
 

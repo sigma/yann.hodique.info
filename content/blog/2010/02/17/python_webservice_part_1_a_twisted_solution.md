@@ -5,7 +5,7 @@ categories = [ "blog" ]
 tags = [ "code", "python", "twisted" ]
 +++
 
-As mentioned [previously]({{< ref "blog/2009/11/15/https_traffic_logger.md"
+As mentioned [previously]({{< ref "/blog/2009/11/15/https_traffic_logger.md"
 >}}) I've been spending some time recently working on a SOAP server mock. For
 this I've used Python [Twisted](http://twistedmatrix.com) and
 [ZSI](http://pywebsvcs.sourceforge.net/zsi.html). Since the interaction between

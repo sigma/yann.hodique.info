@@ -8,7 +8,7 @@ tags = [ "code", "vmware", "python" ]
 
 
 In my [previous post]({{< ref
-"blog/2010/11/03/python_bindings_for_the_vmware_orchestrator.md" >}}) I briefly
+"/blog/2010/11/03/python_bindings_for_the_vmware_orchestrator.md" >}}) I briefly
 introduced an online public vCO simulator, that can be used for test
 purpose. To quote the [documentation](http://vco-gae.appspot.com/)
 
