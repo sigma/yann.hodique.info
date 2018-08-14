@@ -1,6 +1,6 @@
 +++
-title: "{{ replace .TranslationBaseName "-" " " }}.bib"
-date: {{ .Date }}
+title = "{{ replace .TranslationBaseName "-" " " }}.bib"
+date = {{ .Date }}
 categories = [ "bib" ]
 +++
 
