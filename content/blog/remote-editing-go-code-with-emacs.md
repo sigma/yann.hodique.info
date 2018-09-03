@@ -5,7 +5,7 @@ tags = [ "emacs", "code", "go", "hack" ]
 categories = [ "blog" ]
 +++
 
-I've been in an uncomfortable for a while: these days I primarily write Go code,
+I've been in an uncomfortable place for a while: these days I primarily write Go code,
 but on a machine where I don't have a Go toolchain (don't ask). As a result, I
 basically SSH/tmux into a dev machine and do my work like that. When the
 conditions are optimal that's ok-ish, but each network lag or brief
