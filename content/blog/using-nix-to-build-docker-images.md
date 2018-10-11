@@ -43,3 +43,5 @@ wasting 92% of the bandwidth used to transfer those images is more than
 significant...
 
 It's about time we start making sure this wastage can be avoided.
+
+{{< gist sigma 9887c299da60955734f0fff6e2faeee0 >}}
