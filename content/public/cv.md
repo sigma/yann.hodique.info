@@ -58,5 +58,5 @@ I was previously:
 ## Others
 
 You also may want to have a look at my
-[personal productions]({{< ref "/projects/index.md" >}}), or
+[personal productions]({{< ref "/projects/_index.md" >}}), or
 [university works]({{< ref "/public/works.md" >}})
