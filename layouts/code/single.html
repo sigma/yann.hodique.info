@@ -1,8 +1,10 @@
+{{ $gitBase := index (split ("/" | absURL) "//") 1 }}
+{{ $gitRef := printf "%s%s" $gitBase (substr .RelPermalink 1 -1) }}
 <!DOCTYPE html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="go-import" content="hodique.info{{substr .RelPermalink 0 -1}} git {{.Params.vanity}}">
-    <meta name="go-source" content="hodique.info{{substr .RelPermalink 0 -1}} {{.Params.vanity}} {{.Params.vanity}}/tree/master{/dir} {{.Params.vanity}}/blob/master{/dir}/{file}#L{line}">
+    <meta name="go-import" content="{{$gitRef}} git {{.Params.vanity}}">
+    <meta name="go-source" content="{{$gitRef}} {{.Params.vanity}} {{.Params.vanity}}/tree/master{/dir} {{.Params.vanity}}/blob/master{/dir}/{file}#L{line}">
     <meta http-equiv="refresh" content="0; url={{.Params.vanity}}">
 </head>
 </html>
