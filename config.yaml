@@ -10,7 +10,6 @@ permalinks:
   code: /:filename/
 Social:
   twitter: yann_hodique
-  GooglePlus: YannHodique
   facebook: yann.hodique
   keybase: sigma
 params:
