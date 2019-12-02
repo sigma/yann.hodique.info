@@ -6,10 +6,9 @@ aliases = [
 ]
 +++
 
-<p style="text-align: center; font-size: 200%;">This Page is Forever Unfinished</p>
+{{< banner >}}This Page is Forever Unfinished{{< /banner >}}
 
-
-<p style="text-align: center; font-size: 120%;">The postings on this site are my own and do not represent Google's positions, strategies or opinions.</p>
+{{< banner size=120 >}}The postings on this site are my own and do not represent Google's positions, strategies or opinions.{{< /banner >}}
 
 ---
 
