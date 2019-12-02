@@ -1,0 +1,3 @@
+{{$file := .Get "file"}}
+Download: <a href={{$file|absURL}}>{{$file}}</a>
+{{ highlight (printf "/static/%s" $file | readFile) "bib" "" }}

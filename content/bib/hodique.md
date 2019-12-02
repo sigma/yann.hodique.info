@@ -5,6 +5,4 @@ categories = [ "bib" ]
 
 +++
 
-{{< highlight bib >}}
-{{< rawfile file="/static/bib/hodique.bib" >}}
-{{< /highlight >}}
+{{< bibfile file="bib/hodique.bib" >}}
