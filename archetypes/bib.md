@@ -4,6 +4,4 @@ date = {{ .Date }}
 categories = [ "bib" ]
 +++
 
-{{< highlight bib >}}
-{{< rawfile file="/static/bib/{{ replace .TranslationBaseName "-" " " }}.bib" >}}
-{{< /highlight >}}
+{{< bibfile file="bib/{{ replace .TranslationBaseName "-" " " }}.bib" >}}

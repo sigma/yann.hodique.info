@@ -1,5 +1,4 @@
 ---
-#baseurl: "http://yann.hodique.info/"
 baseurl: ""
 relativeURLs: true
 languageCode: "en-us"
@@ -22,6 +21,6 @@ params:
   disqusShortname: "yannhodiqueinfo"
   ResumePdf: "https://sigma.keybase.pub/cv.pdf"
 pygmentsCodeFences: true
+pygmentsCodeFencesGuessSyntax: true
 pygmentsUseClasses: true
-pygmentsCodefencesGuessSyntax: true
 ...
