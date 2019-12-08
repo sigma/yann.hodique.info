@@ -1,23 +1,18 @@
 [build]
 publish = "public"
-command = "hugo --gc --minify -b $URL"
+command = "make build-prod"
 
 [context.production.environment]
+GO_VERSION = "1.12"
 HUGO_VERSION = "0.60.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+GO_IMPORT_PATH = "github.com/sigma/yann.hodique.info"
 
 [context.deploy-preview]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "make build-pre"
 
 [context.deploy-preview.environment]
+GO_VERSION = "1.12"
 HUGO_VERSION = "0.60.1"
-
-[context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy.environment]
-HUGO_VERSION = "0.60.1"
-
-[context.next.environment]
-HUGO_ENABLEGITINFO = "true"
+GO_IMPORT_PATH = "github.com/sigma/yann.hodique.info"
