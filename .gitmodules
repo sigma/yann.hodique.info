@@ -1,0 +1,3 @@
+[submodule "src/vanity"]
+	path = src/vanity
+	url = https://github.com/sigma/gh-vanity.git

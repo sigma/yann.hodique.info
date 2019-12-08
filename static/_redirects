@@ -1,0 +1,1 @@
+/:repo/*	go-get=1	/.netlify/functions/vanity_v1?repo=:repo	301!
