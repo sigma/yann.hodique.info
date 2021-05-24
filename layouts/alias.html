@@ -2,7 +2,7 @@
     <head>
         {{if .Page.Params.vanity -}}
         <meta name="go-import" content="hodique.info{{substr .Page.RelPermalink 0 -1}} git {{.Page.Params.vanity}}">
-        <meta name="go-source" content="hodique.info{{substr .Page.RelPermalink 0 -1}} {{.Page.Params.vanity}} {{.Page.Params.vanity}}/tree/master{/dir} {{.Page.Params.vanity}}/blob/master{/dir}/{file}#L{line}">
+        <meta name="go-source" content="hodique.info{{substr .Page.RelPermalink 0 -1}} {{.Page.Params.vanity}} {{.Page.Params.vanity}}/tree/main{/dir} {{.Page.Params.vanity}}/blob/main{/dir}/{file}#L{line}">
         {{- end}}
         <title>{{ .Permalink }}</title>
         <link rel="canonical" href="{{ .Permalink }}"/>
