@@ -3,8 +3,8 @@ publish = "public"
 command = "make build-prod"
 
 [context.production.environment]
-GO_VERSION = "1.16"
-HUGO_VERSION = "0.83.1"
+GO_VERSION = "1.18"
+HUGO_VERSION = "0.103.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 GO_IMPORT_PATH = "github.com/sigma/yann.hodique.info"
@@ -13,6 +13,6 @@ GO_IMPORT_PATH = "github.com/sigma/yann.hodique.info"
 command = "make build-pre"
 
 [context.deploy-preview.environment]
-GO_VERSION = "1.16"
-HUGO_VERSION = "0.83.1"
+GO_VERSION = "1.18"
+HUGO_VERSION = "0.103.1"
 GO_IMPORT_PATH = "github.com/sigma/yann.hodique.info"
