@@ -20,7 +20,7 @@ The most recent (and thus active) come first.
 | [Trac-Bzr](http://launchpad.net/products/trac-bzr) | A Trac plugin for using Bzr |
 | [(osd)](https://github.com/sigma/lisposd/tree) | A guile frontend for libxosd  |
 | [Lispy](https://github.com/sigma/lispy/tree) | A chat client again, but this time it is written in emacs-lisp  |
-| [QNet](http://savannah.nongnu.org/projects/qnet) | C++/Qt client for <Mtp> Chat! servers (see below)  |
+| [QNet](http://savannah.nongnu.org/projects/qnet) | C++/Qt client for &lt;Mtp&gt; Chat! servers (see below)  |
 | [Octopus](https://github.com/sigma/octopus/tree) | Chat server written in C++/qtlite (Qt clone without graphical interface, created for Octopus) This was inspired by the server written by Fabien Letouzey (Xann/Mtp)  |
 | Pascal compiler  | A compiler written in C for a little subset of the Pascal language. The compiled code runs on a dedicated virtual machine (included) This was done as a project during my studies.  |
 | Power4 game  | A little game written in 8086 assembly code. Graphical or textual interface, basic artificial intelligence.  |

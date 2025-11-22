@@ -6,7 +6,7 @@ title: "Yann Hodique"
 footnotereturnlinkcontents: "↩"
 permalinks:
   post: /:year/:month/:title/
-  code: /:filename/
+  code: /:contentbasename/
 Social:
   twitter: yann_hodique
   facebook: yann.hodique
