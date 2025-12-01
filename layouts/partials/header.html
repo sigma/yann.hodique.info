@@ -8,6 +8,11 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
         {{ hugo.Generator }}
         <title> {{ .Title }} &middot; {{ .Site.Title }} </title>
+        {{ with .Params.relcanonical }}
+        <link rel="canonical" href="{{ . | relLangURL }}" itemprop="url" />
+        {{ else -}}
+        <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+        {{ end -}}
         <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
